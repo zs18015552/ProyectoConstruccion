@@ -271,7 +271,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
     jDesktopPane1.add(internalCurso);
     ControladorCurso internalCtrlCurso = new ControladorCurso(internalCurso);
     internalCurso.show();
-    
     internalCurso.tblCurso.setModel(new javax.swing.table.DefaultTableModel(
         new Object [][] {},
         new String [] {"NRC", "Experiencia Educativa", "Profesor", "Lunes", "Martes"

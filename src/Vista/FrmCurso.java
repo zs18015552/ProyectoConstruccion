@@ -106,7 +106,7 @@ public class FrmCurso extends javax.swing.JInternalFrame {
       }
     ) {
       boolean[] canEdit = new boolean [] {
-        true, true, false, false, false, false, false, true
+        false, false, false, false, false, false, false, false
       };
 
       public boolean isCellEditable(int rowIndex, int columnIndex) {

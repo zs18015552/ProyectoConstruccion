@@ -47,8 +47,10 @@ public class MetodosProfesor extends ConectarBD{
         Reservacion llenadoMiercoles = new Reservacion();
         Reservacion llenadoJueves = new Reservacion();
         Reservacion llenadoViernes = new Reservacion();
+        
         @SuppressWarnings("unchecked")
         List<Reservacion> llenadoReservacion = new ArrayList();
+        
         llenadoCurso.setNrc(rs.getString(1));
         llenadoCurso.setExperienciaEducativa(rs.getString(2));   
         llenadoLunes.setHoraDia(rs.getString(3));
