@@ -108,7 +108,7 @@ public class MetodosCurso extends ConectarBD{
         "       FROM curso \n" +
 "       INNER JOIN profesor ON profesor.id_profesor = curso.profesor\n" +
 "       INNER JOIN reserva ON reserva.nrc_reserva = curso.nrc\n" +
-"       WHERE  exp_educativa = '%"+cadenaBusqueda+"%') AS TablaProfesores;";
+"       WHERE  exp_educativa = '"+cadenaBusqueda+"') AS TablaProfesores;";
     
     try {
       ps = (PreparedStatement) conexion.prepareStatement(queryCurso);

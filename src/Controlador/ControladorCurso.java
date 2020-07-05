@@ -84,7 +84,7 @@ public class ControladorCurso implements ActionListener{
   public void MostrarDatosNRC(JTable tblCurso){
     modeloCurso= (DefaultTableModel)tblCurso.getModel();
     @SuppressWarnings("unchecked")
-    List<Curso>listaCurso=metodosCurso.BuscarCurso(curso, frmCurso.txtNRC.getText());
+    List<Curso>listaCurso=metodosCurso.BuscarNRC(curso, frmCurso.txtNRC.getText());
     @SuppressWarnings("unchecked")
     List<Reservacion> listaReservacion = new ArrayList();
     @SuppressWarnings("unchecked")
